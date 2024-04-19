@@ -3,8 +3,8 @@ export default function RootLayout({ children, details }) {
         <html>
             <head />
             <body>
-                {details}
                 {children}
+                {details}
             </body>
         </html>
     );
